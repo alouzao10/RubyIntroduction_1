@@ -43,3 +43,6 @@ name = gets.chomp
 puts "The #{color} ball was thrown #{number} times at #{name}."
 
 
+
+
+

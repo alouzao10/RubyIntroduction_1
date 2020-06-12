@@ -10,6 +10,7 @@ puts "This is Ruby code."
 print "/ | /"
 puts "/ | / \n"
 
+
 # Variables and Output
 name = "Paul"
 height = "10" 
@@ -20,12 +21,14 @@ height = "5"
 puts "But she didn't like being #{height} feet tall"
 puts "She hates being #{name} \n"
 
+
 # Variables and Data Types
 name = "Mike" #String
 age = 75 #Int
 isAlive = true #Bool
 netWorth = 5563825.55 #Float
 flaws = nil #Nil = no value
+
 
 #Working with Strings and String Methods
 puts "Hello \"String\""
@@ -41,6 +44,7 @@ puts ("The String is: " + phrase.length.to_s + " characters long");
 puts ("The Other String has 'Bye': #{otherPhrase.include? "Bye"}");
 puts ("The Other String's first character = " + otherPhrase[0])
 puts (phrase[0,5] + " and " + otherPhrase[0,3])
+
 
 #Working with Numbers
 puts 5
