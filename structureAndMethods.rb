@@ -136,3 +136,21 @@ for person in people
    puts person.upcase 
 end
 
+
+#Exponent Method
+def doExponent(base, exp)
+    result = 1
+    while exp != 0
+        result *= base
+        exp -= 1
+    end
+    return result.to_s
+end
+
+puts "EXPONENTS"
+print "Enter base num: "
+base = gets.chomp
+print "Enter exponent num: "
+exp = gets.chomp
+puts (base + "^" + exp + " = " + doExponent(base.to_i, exp.to_i))
+
